@@ -104,38 +104,3 @@ def recommend_session(user, df):
         'avg_calories_7days': avg_cal
     }
 
-
-# ============================================================
-# QUICK TEST — exécutez ce bloc pour tester rapidement la recommandation
-# ============================================================
-
-if __name__ == '__main__':
-    from models import User
-
-    # Create a test user
-    alice = User('Alice', 30, 62.0, 165, 'weight_loss', 'F')
-
-    # Simulate a small DataFrame
-    data = {
-        'date': pd.to_datetime([
-            str(date.today() - timedelta(days=i)) for i in range(7)
-        ]),
-        'calories': [300, 250, 320, 280, 310, 290, 305],
-        'workout_type': ['running', 'yoga', 'hiit', 'walking',
-                         'running', 'swimming', 'hiit']
-    }
-    df_test = pd.DataFrame(data)
-
-    # Test activity_level
-    print('=== ACTIVITY LEVEL ===')
-    level = activity_level(df_test)
-    print('Level :', level)
-
-    # Test recommend_session
-    print('\n=== RECOMMENDATION ===')
-    rec = recommend_session(alice, df_test)
-    print(f"Exercise     : {rec['exercise']}")
-    print(f"Duration     : {rec['duration']} min")
-    print(f"Message      : {rec['message']}")
-    print(f"Activity     : {rec['activity_level']}")
-    print(f"Avg calories : {rec['avg_calories_7days']} cal/day")

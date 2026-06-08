@@ -53,6 +53,7 @@ class DataManager:
 
         df = pd.DataFrame(data)
 
+        # Vérifier que la colonne 'date' existe avant de la convertir
         if 'date' not in df.columns:
             return pd.DataFrame()
 
@@ -216,7 +217,7 @@ Méthode inject_anomalies pour injecter des valeurs problématiques dans le data
 def inject_anomalies(session, dm):
 
     #Valeurs manquantes : injecter 8% dans le dataset
-    if np.random.random() < 0.08:
+    if np.random.random() < 0.08: 
         session.calories = np.nan
     if np.random.random() < 0.08:
         session.steps = np.nan
@@ -310,8 +311,8 @@ def clean_dataset():
         df["steps"]    = pd.to_numeric(df["steps"],    errors="coerce")
 
         # 4. Remplacer les valeurs manquantes
-        df["calories"] = SimpleImputer(strategy="mean").fit_transform(df[["calories"]])
-        df["steps"]    = SimpleImputer(strategy="mean").fit_transform(df[["steps"]])
+        df["calories"] = SimpleImputer(strategy="median").fit_transform(df[["calories"]])
+        df["steps"]    = SimpleImputer(strategy="median").fit_transform(df[["steps"]])
 
         # 5. Retirer les valeurs aberrantes
         Q1  = df["calories"].quantile(0.25)
