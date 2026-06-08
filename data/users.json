@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Aya_1",
+    "age": 46,
+    "weight": 61.0,
+    "height": 157,
+    "goal": "weight_loss",
+    "gender": "M",
+    "user_id": 1
+  },
+  {
+    "name": "Koffi_2",
+    "age": 36,
+    "weight": 56.0,
+    "height": 160,
+    "goal": "weight_loss",
+    "gender": "M",
+    "user_id": 2
+  },
+  {
+    "name": "Awa_3",
+    "age": 41,
+    "weight": 89.1,
+    "height": 151,
+    "goal": "muscle_gain",
+    "gender": "F",
+    "user_id": 3
+  },
+  {
+    "name": "Kouame_4",
+    "age": 38,
+    "weight": 87.0,
+    "height": 171,
+    "goal": "weight_loss",
+    "gender": "F",
+    "user_id": 4
+  },
+  {
+    "name": "Mariam_5",
+    "age": 44,
+    "weight": 86.7,
+    "height": 191,
+    "goal": "cardio",
+    "gender": "F",
+    "user_id": 5
+  },
+  {
+    "name": "Chris KOUAKOU",
+    "age": 24,
+    "weight": 174.0,
+    "height": 123,
+    "goal": "Cardio",
+    "gender": "M",
+    "user_id": 6
+  },
+  {
+    "name": "MOUAHE",
+    "age": 24,
+    "weight": 59.0,
+    "height": 174,
+    "goal": "force",
+    "gender": "M",
+    "user_id": 7
+  }
+]
