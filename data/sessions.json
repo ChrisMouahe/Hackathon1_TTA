@@ -1,7 +1,7 @@
 [
   {
     "user_id": 1,
-    "date": "2026-05-09",
+    "date": "2026-06-06",
     "workout_type": "musculation",
     "duration": 43,
     "intensity": "élevée",
@@ -10,7 +10,7 @@
   },
   {
     "user_id": 1,
-    "date": "2026-05-10",
+    "date": "2026-06-07",
     "workout_type": "MARCHE",
     "duration": 52,
     "intensity": "modérée",
@@ -19,7 +19,7 @@
   },
   {
     "user_id": 1,
-    "date": "2026-05-11",
+    "date": "2026-06-08",
     "workout_type": "marche",
     "duration": 58,
     "intensity": "élevée",
@@ -28,7 +28,7 @@
   },
   {
     "user_id": 1,
-    "date": "2026-05-12",
+    "date": "2026-06-09",
     "workout_type": "natation",
     "duration": 16,
     "intensity": "élevée",
@@ -37,7 +37,7 @@
   },
   {
     "user_id": 1,
-    "date": "2026-05-13",
+    "date": "2026-06-10",
     "workout_type": "running",
     "duration": 40,
     "intensity": "modérée",
@@ -45,8 +45,8 @@
     "steps": 2995
   },
   {
-    "user_id": 1,
-    "date": "2026-05-14",
+    "user_id": 2,
+    "date": "2026-06-06",
     "workout_type": "natation",
     "duration": 38,
     "intensity": "modérée",
@@ -54,8 +54,8 @@
     "steps": 8331
   },
   {
-    "user_id": 1,
-    "date": "2026-05-14",
+    "user_id": 2,
+    "date": "2026-06-06",
     "workout_type": "natation",
     "duration": 38,
     "intensity": "modérée",
@@ -63,8 +63,8 @@
     "steps": 8331
   },
   {
-    "user_id": 1,
-    "date": "2026-05-15",
+    "user_id": 2,
+    "date": "2026-06-07",
     "workout_type": "hiit",
     "duration": 31,
     "intensity": "élevée",
@@ -72,8 +72,8 @@
     "steps": 7892
   },
   {
-    "user_id": 1,
-    "date": "2026-05-16",
+    "user_id": 2,
+    "date": "2026-06-08",
     "workout_type": "NATATION",
     "duration": 49,
     "intensity": "modérée",
@@ -81,8 +81,8 @@
     "steps": 7056
   },
   {
-    "user_id": 1,
-    "date": "2026-05-17",
+    "user_id": 2,
+    "date": "2026-06-09",
     "workout_type": "running",
     "duration": 56,
     "intensity": "faible",
@@ -90,8 +90,8 @@
     "steps": 2863
   },
   {
-    "user_id": 1,
-    "date": "2026-05-18",
+    "user_id": 2,
+    "date": "2026-06-10",
     "workout_type": "hiit",
     "duration": 36,
     "intensity": "modérée",
@@ -99,8 +99,8 @@
     "steps": 11789
   },
   {
-    "user_id": 1,
-    "date": "2026-05-19",
+    "user_id": 3,
+    "date": "2026-06-06",
     "workout_type": "marche",
     "duration": 47,
     "intensity": "faible",
@@ -108,8 +108,8 @@
     "steps": 8776
   },
   {
-    "user_id": 1,
-    "date": "2026-05-20",
+    "user_id": 3,
+    "date": "2026-06-07",
     "workout_type": "HIIT",
     "duration": 46,
     "intensity": "faible",
@@ -117,8 +117,8 @@
     "steps": 3853
   },
   {
-    "user_id": 1,
-    "date": "2026-05-21",
+    "user_id": 3,
+    "date": "2026-06-08",
     "workout_type": "running",
     "duration": 42,
     "intensity": "modérée",
@@ -126,8 +126,8 @@
     "steps": 7855
   },
   {
-    "user_id": 1,
-    "date": "2026-05-22",
+    "user_id": 3,
+    "date": "2026-06-09",
     "workout_type": "hiit",
     "duration": 31,
     "intensity": "élevée",
@@ -135,8 +135,8 @@
     "steps": 10004
   },
   {
-    "user_id": 1,
-    "date": "2026-05-22",
+    "user_id": 3,
+    "date": "2026-06-09",
     "workout_type": "hiit",
     "duration": 31,
     "intensity": "élevée",
@@ -144,8 +144,8 @@
     "steps": 10004
   },
   {
-    "user_id": 1,
-    "date": "2026-05-23",
+    "user_id": 3,
+    "date": "2026-06-10",
     "workout_type": "musculation",
     "duration": 50,
     "intensity": "élevée",
@@ -153,8 +153,8 @@
     "steps": 10338
   },
   {
-    "user_id": 1,
-    "date": "2026-05-24",
+    "user_id": 4,
+    "date": "2026-06-06",
     "workout_type": "running",
     "duration": 37,
     "intensity": "élevée",
@@ -162,8 +162,8 @@
     "steps": 2262
   },
   {
-    "user_id": 1,
-    "date": "2026-05-25",
+    "user_id": 4,
+    "date": "2026-06-07",
     "workout_type": "hiit",
     "duration": 23,
     "intensity": "faible",
@@ -171,8 +171,8 @@
     "steps": 4255
   },
   {
-    "user_id": 1,
-    "date": "2026-05-26",
+    "user_id": 4,
+    "date": "2026-06-08",
     "workout_type": "hiit",
     "duration": 39,
     "intensity": "élevée",
@@ -180,8 +180,8 @@
     "steps": 4961
   },
   {
-    "user_id": 1,
-    "date": "2026-05-27",
+    "user_id": 4,
+    "date": "2026-06-09",
     "workout_type": "musculation",
     "duration": 22,
     "intensity": "élevée",
@@ -189,8 +189,8 @@
     "steps": 6735
   },
   {
-    "user_id": 1,
-    "date": "2026-05-28",
+    "user_id": 4,
+    "date": "2026-06-10",
     "workout_type": "hiit",
     "duration": 41,
     "intensity": "modérée",
@@ -198,8 +198,8 @@
     "steps": 9022
   },
   {
-    "user_id": 1,
-    "date": "2026-05-29",
+    "user_id": 5,
+    "date": "2026-06-06",
     "workout_type": "natation",
     "duration": 20,
     "intensity": "élevée",
@@ -207,8 +207,8 @@
     "steps": 3060
   },
   {
-    "user_id": 1,
-    "date": "2026-05-30",
+    "user_id": 5,
+    "date": "2026-06-07",
     "workout_type": "hiit",
     "duration": 32,
     "intensity": "faible",
@@ -216,8 +216,8 @@
     "steps": 8709
   },
   {
-    "user_id": 1,
-    "date": "2026-05-31",
+    "user_id": 5,
+    "date": "2026-06-08",
     "workout_type": "YOGA",
     "duration": 54,
     "intensity": "faible",
@@ -225,8 +225,8 @@
     "steps": 9343
   },
   {
-    "user_id": 1,
-    "date": "2026-06-01",
+    "user_id": 5,
+    "date": "2026-06-09",
     "workout_type": "musculation",
     "duration": 15,
     "intensity": "modérée",
@@ -234,8 +234,8 @@
     "steps": NaN
   },
   {
-    "user_id": 1,
-    "date": "2026-06-02",
+    "user_id": 5,
+    "date": "2026-06-10",
     "workout_type": "marche",
     "duration": 36,
     "intensity": "faible",
@@ -243,8 +243,8 @@
     "steps": 5854
   },
   {
-    "user_id": 1,
-    "date": "2026-06-03",
+    "user_id": 6,
+    "date": "2026-06-06",
     "workout_type": "musculation",
     "duration": 44,
     "intensity": "élevée",
@@ -252,8 +252,8 @@
     "steps": 9079
   },
   {
-    "user_id": 1,
-    "date": "2026-06-04",
+    "user_id": 6,
+    "date": "2026-06-07",
     "workout_type": "natation",
     "duration": 40,
     "intensity": "faible",
@@ -261,8 +261,8 @@
     "steps": 3150
   },
   {
-    "user_id": 1,
-    "date": "2026-06-05",
+    "user_id": 6,
+    "date": "2026-06-08",
     "workout_type": "natation",
     "duration": 15,
     "intensity": "faible",
@@ -270,8 +270,8 @@
     "steps": 11662
   },
   {
-    "user_id": 1,
-    "date": "2026-06-06",
+    "user_id": 6,
+    "date": "2026-06-09",
     "workout_type": "yoga",
     "duration": 44,
     "intensity": "modérée",
@@ -279,8 +279,8 @@
     "steps": 8617
   },
   {
-    "user_id": 1,
-    "date": "2026-06-06",
+    "user_id": 6,
+    "date": "2026-06-09",
     "workout_type": "yoga",
     "duration": 44,
     "intensity": "modérée",
@@ -288,8 +288,8 @@
     "steps": 8617
   },
   {
-    "user_id": 1,
-    "date": "2026-06-07",
+    "user_id": 6,
+    "date": "2026-06-10",
     "workout_type": "running",
     "duration": 33,
     "intensity": "modérée",
@@ -297,8 +297,8 @@
     "steps": 11207
   },
   {
-    "user_id": 2,
-    "date": "2026-05-09",
+    "user_id": 7,
+    "date": "2026-06-06",
     "workout_type": "running",
     "duration": 49,
     "intensity": "faible",
@@ -306,8 +306,8 @@
     "steps": 4738
   },
   {
-    "user_id": 2,
-    "date": "2026-05-10",
+    "user_id": 7,
+    "date": "2026-06-07",
     "workout_type": "natation",
     "duration": 49,
     "intensity": "élevée",
@@ -315,8 +315,8 @@
     "steps": 10967
   },
   {
-    "user_id": 2,
-    "date": "2026-05-11",
+    "user_id": 7,
+    "date": "2026-06-08",
     "workout_type": "musculation",
     "duration": 39,
     "intensity": "faible",
@@ -324,8 +324,8 @@
     "steps": 10867
   },
   {
-    "user_id": 2,
-    "date": "2026-05-12",
+    "user_id": 7,
+    "date": "2026-06-09",
     "workout_type": "marche",
     "duration": 46,
     "intensity": "faible",
@@ -333,8 +333,8 @@
     "steps": 5766
   },
   {
-    "user_id": 2,
-    "date": "2026-05-13",
+    "user_id": 7,
+    "date": "2026-06-10",
     "workout_type": "yoga",
     "duration": 50,
     "intensity": "faible",
@@ -342,1353 +342,2685 @@
     "steps": 6171
   },
   {
-    "user_id": 2,
-    "date": "2026-05-14",
+    "user_id": 1,
+    "date": "2026-06-06",
     "workout_type": "musculation",
-    "duration": 35,
-    "intensity": "faible",
-    "calories": 319,
-    "steps": 3062
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
   },
   {
-    "user_id": 2,
-    "date": "2026-05-15",
-    "workout_type": "musculation",
-    "duration": 23,
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "MARCHE",
+    "duration": 52,
     "intensity": "modérée",
-    "calories": 326,
-    "steps": 9056
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-16",
-    "workout_type": "hiit",
-    "duration": 22,
-    "intensity": "faible",
-    "calories": 406,
-    "steps": 10691
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-17",
-    "workout_type": "running",
-    "duration": 40,
-    "intensity": "élevée",
-    "calories": NaN,
-    "steps": 6268
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-18",
-    "workout_type": "marche",
-    "duration": 39,
-    "intensity": "faible",
-    "calories": 122,
-    "steps": 2133
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-19",
-    "workout_type": "hiit",
-    "duration": 34,
-    "intensity": "faible",
-    "calories": 428,
-    "steps": 3256
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-20",
-    "workout_type": "marche",
-    "duration": 26,
-    "intensity": "faible",
-    "calories": 128,
-    "steps": 8819
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-21",
-    "workout_type": "yoga",
-    "duration": 34,
-    "intensity": "faible",
-    "calories": 218,
-    "steps": NaN
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-22",
-    "workout_type": "hiit",
-    "duration": 59,
-    "intensity": "faible",
-    "calories": 354,
-    "steps": 4193
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-23",
-    "workout_type": "hiit",
-    "duration": 15,
-    "intensity": "faible",
-    "calories": 358,
-    "steps": 4000
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-24",
-    "workout_type": "yoga",
-    "duration": 15,
-    "intensity": "élevée",
-    "calories": 177,
-    "steps": 9939
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-25",
-    "workout_type": "hiit",
-    "duration": 26,
-    "intensity": "faible",
-    "calories": 433,
-    "steps": 10580
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-26",
-    "workout_type": "marche",
-    "duration": 48,
-    "intensity": "modérée",
-    "calories": 161,
-    "steps": 10017
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-27",
-    "workout_type": "hiit",
-    "duration": 31,
-    "intensity": "faible",
-    "calories": 469,
-    "steps": 2137
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-28",
-    "workout_type": "hiit",
-    "duration": 37,
-    "intensity": "élevée",
-    "calories": 438,
-    "steps": 8090
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-29",
-    "workout_type": "running",
-    "duration": 33,
-    "intensity": "faible",
-    "calories": 304,
-    "steps": 6777
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-30",
-    "workout_type": "yoga",
-    "duration": 40,
-    "intensity": "faible",
     "calories": 5000,
-    "steps": 8493
-  },
-  {
-    "user_id": 2,
-    "date": "2026-05-31",
-    "workout_type": "marche",
-    "duration": 28,
-    "intensity": "modérée",
-    "calories": 176,
-    "steps": 4125
-  },
-  {
-    "user_id": 2,
-    "date": "2026-06-01",
-    "workout_type": "natation",
-    "duration": 32,
-    "intensity": "modérée",
-    "calories": 353,
     "steps": 100000
   },
   {
-    "user_id": 2,
-    "date": "2026-06-02",
-    "workout_type": "yoga",
-    "duration": 27,
-    "intensity": "faible",
-    "calories": 218,
-    "steps": 10258
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 3528
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 16,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 2775
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 335,
+    "steps": 2995
   },
   {
     "user_id": 2,
-    "date": "2026-06-03",
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 469,
+    "steps": 7892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "NATATION",
+    "duration": 49,
+    "intensity": "modérée",
+    "calories": 433,
+    "steps": 7056
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 56,
+    "intensity": "faible",
+    "calories": 308,
+    "steps": 2863
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 36,
+    "intensity": "modérée",
+    "calories": 444,
+    "steps": 11789
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "marche",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 5000,
+    "steps": 8776
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "HIIT",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 3853
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "running",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 285,
+    "steps": 7855
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "musculation",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 307,
+    "steps": 10338
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 37,
+    "intensity": "élevée",
+    "calories": 403,
+    "steps": 2262
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 23,
+    "intensity": "faible",
+    "calories": 402,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "élevée",
+    "calories": 496,
+    "steps": 4961
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 22,
+    "intensity": "élevée",
+    "calories": 308,
+    "steps": 6735
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 41,
+    "intensity": "modérée",
+    "calories": 403,
+    "steps": 9022
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
     "workout_type": "natation",
     "duration": 20,
+    "intensity": "élevée",
+    "calories": 412,
+    "steps": 3060
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 32,
+    "intensity": "faible",
+    "calories": 409,
+    "steps": 8709
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "YOGA",
+    "duration": 54,
+    "intensity": "faible",
+    "calories": 164,
+    "steps": 9343
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 319,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 36,
+    "intensity": "faible",
+    "calories": 104,
+    "steps": 5854
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 44,
+    "intensity": "élevée",
+    "calories": 305,
+    "steps": 9079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 312,
+    "steps": 3150
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 11662
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 350,
+    "steps": 11207
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 344,
+    "steps": 4738
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": "élevée",
+    "calories": 311,
+    "steps": 10967
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 345,
+    "steps": 10867
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 124,
+    "steps": 5766
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 50,
+    "intensity": "faible",
+    "calories": 241,
+    "steps": 6171
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "MARCHE",
+    "duration": 52,
     "intensity": "modérée",
     "calories": 5000,
+    "steps": 100000
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 3528
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 16,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 2775
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 335,
+    "steps": 2995
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 469,
+    "steps": 7892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "NATATION",
+    "duration": 49,
+    "intensity": "modérée",
+    "calories": 433,
+    "steps": 7056
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 56,
+    "intensity": "faible",
+    "calories": 308,
+    "steps": 2863
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 36,
+    "intensity": "modérée",
+    "calories": 444,
+    "steps": 11789
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "marche",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 5000,
+    "steps": 8776
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "HIIT",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 3853
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "running",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 285,
+    "steps": 7855
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "musculation",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 307,
+    "steps": 10338
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 37,
+    "intensity": "élevée",
+    "calories": 403,
+    "steps": 2262
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 23,
+    "intensity": "faible",
+    "calories": 402,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "élevée",
+    "calories": 496,
+    "steps": 4961
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 22,
+    "intensity": "élevée",
+    "calories": 308,
+    "steps": 6735
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 41,
+    "intensity": "modérée",
+    "calories": 403,
+    "steps": 9022
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 20,
+    "intensity": "élevée",
+    "calories": 412,
+    "steps": 3060
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 32,
+    "intensity": "faible",
+    "calories": 409,
+    "steps": 8709
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "YOGA",
+    "duration": 54,
+    "intensity": "faible",
+    "calories": 164,
+    "steps": 9343
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 319,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 36,
+    "intensity": "faible",
+    "calories": 104,
+    "steps": 5854
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 44,
+    "intensity": "élevée",
+    "calories": 305,
+    "steps": 9079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 312,
+    "steps": 3150
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 11662
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 350,
+    "steps": 11207
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 344,
+    "steps": 4738
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": "élevée",
+    "calories": 311,
+    "steps": 10967
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 345,
+    "steps": 10867
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 124,
+    "steps": 5766
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 50,
+    "intensity": "faible",
+    "calories": 241,
+    "steps": 6171
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "MARCHE",
+    "duration": 52,
+    "intensity": "modérée",
+    "calories": 5000,
+    "steps": 100000
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 3528
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 16,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 2775
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 335,
+    "steps": 2995
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 469,
+    "steps": 7892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "NATATION",
+    "duration": 49,
+    "intensity": "modérée",
+    "calories": 433,
+    "steps": 7056
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 56,
+    "intensity": "faible",
+    "calories": 308,
+    "steps": 2863
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 36,
+    "intensity": "modérée",
+    "calories": 444,
+    "steps": 11789
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "marche",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 5000,
+    "steps": 8776
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "HIIT",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 3853
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "running",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 285,
+    "steps": 7855
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "musculation",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 307,
+    "steps": 10338
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 37,
+    "intensity": "élevée",
+    "calories": 403,
+    "steps": 2262
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 23,
+    "intensity": "faible",
+    "calories": 402,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "élevée",
+    "calories": 496,
+    "steps": 4961
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 22,
+    "intensity": "élevée",
+    "calories": 308,
+    "steps": 6735
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 41,
+    "intensity": "modérée",
+    "calories": 403,
+    "steps": 9022
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 20,
+    "intensity": "élevée",
+    "calories": 412,
+    "steps": 3060
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 32,
+    "intensity": "faible",
+    "calories": 409,
+    "steps": 8709
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "YOGA",
+    "duration": 54,
+    "intensity": "faible",
+    "calories": 164,
+    "steps": 9343
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 319,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 36,
+    "intensity": "faible",
+    "calories": 104,
+    "steps": 5854
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 44,
+    "intensity": "élevée",
+    "calories": 305,
+    "steps": 9079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 312,
+    "steps": 3150
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 11662
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 350,
+    "steps": 11207
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 344,
+    "steps": 4738
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": "élevée",
+    "calories": 311,
+    "steps": 10967
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 345,
+    "steps": 10867
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 124,
+    "steps": 5766
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 50,
+    "intensity": "faible",
+    "calories": 241,
+    "steps": 6171
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "MARCHE",
+    "duration": 52,
+    "intensity": "modérée",
+    "calories": 5000,
+    "steps": 100000
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 3528
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 16,
+    "intensity": "élevée",
+    "calories": NaN,
+    "steps": 2775
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 335,
+    "steps": 2995
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 38,
+    "intensity": "modérée",
+    "calories": 445,
+    "steps": 8331
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 469,
+    "steps": 7892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "NATATION",
+    "duration": 49,
+    "intensity": "modérée",
+    "calories": 433,
+    "steps": 7056
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 56,
+    "intensity": "faible",
+    "calories": 308,
+    "steps": 2863
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 36,
+    "intensity": "modérée",
+    "calories": 444,
+    "steps": 11789
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "marche",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 5000,
+    "steps": 8776
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "HIIT",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 3853
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "running",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 285,
+    "steps": 7855
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "musculation",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 307,
+    "steps": 10338
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 37,
+    "intensity": "élevée",
+    "calories": 403,
+    "steps": 2262
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 23,
+    "intensity": "faible",
+    "calories": 402,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "élevée",
+    "calories": 496,
+    "steps": 4961
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 22,
+    "intensity": "élevée",
+    "calories": 308,
+    "steps": 6735
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 41,
+    "intensity": "modérée",
+    "calories": 403,
+    "steps": 9022
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 20,
+    "intensity": "élevée",
+    "calories": 412,
+    "steps": 3060
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "hiit",
+    "duration": 32,
+    "intensity": "faible",
+    "calories": 409,
+    "steps": 8709
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "YOGA",
+    "duration": 54,
+    "intensity": "faible",
+    "calories": 164,
+    "steps": 9343
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 319,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 36,
+    "intensity": "faible",
+    "calories": 104,
+    "steps": 5854
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 44,
+    "intensity": "élevée",
+    "calories": 305,
+    "steps": 9079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 312,
+    "steps": 3150
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "faible",
+    "calories": 411,
+    "steps": 11662
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 44,
+    "intensity": "modérée",
+    "calories": 248,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 350,
+    "steps": 11207
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 344,
+    "steps": 4738
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": "élevée",
+    "calories": 311,
+    "steps": 10967
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 345,
+    "steps": 10867
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 46,
+    "intensity": "faible",
+    "calories": 124,
+    "steps": 5766
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 50,
+    "intensity": "faible",
+    "calories": 241,
+    "steps": 6171
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "running",
+    "duration": 35,
+    "intensity": "faible",
+    "calories": 323,
+    "steps": 8396
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 291,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 28,
+    "intensity": "faible",
+    "calories": 389,
+    "steps": 5943
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 37,
+    "intensity": "faible",
+    "calories": 196,
+    "steps": 9892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 38,
+    "intensity": "faible",
+    "calories": NaN,
+    "steps": 11687
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "musculation",
+    "duration": 48,
+    "intensity": "faible",
+    "calories": 210,
+    "steps": 4454
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 53,
+    "intensity": "élevée",
+    "calories": 152,
+    "steps": 7134
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 43,
+    "intensity": "faible",
+    "calories": 362,
+    "steps": 11914
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": NaN,
+    "duration": 42,
+    "intensity": "faible",
+    "calories": 325,
+    "steps": 9392
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 304,
+    "steps": 3495
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 304,
+    "steps": 3495
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 16,
+    "intensity": "modérée",
+    "calories": 191,
+    "steps": 2854
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "HIIT",
+    "duration": 31,
+    "intensity": "élevée",
+    "calories": 470,
+    "steps": 10004
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 457,
+    "steps": 10338
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 56,
+    "intensity": "élevée",
+    "calories": 123,
+    "steps": 8287
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "hiit",
+    "duration": 33,
+    "intensity": "élevée",
+    "calories": 478,
+    "steps": -1000
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 32,
+    "intensity": "modérée",
+    "calories": 5000,
+    "steps": 4869
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 26,
+    "intensity": "élevée",
+    "calories": 187,
+    "steps": 5446
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "YOGA",
+    "duration": 19,
+    "intensity": "faible",
+    "calories": NaN,
+    "steps": 9683
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 45,
+    "intensity": "élevée",
+    "calories": 248,
+    "steps": 11331
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 46,
+    "intensity": "élevée",
+    "calories": 419,
+    "steps": 5009
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "running",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 291,
+    "steps": 4950
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 39,
+    "intensity": "modérée",
+    "calories": 154,
+    "steps": 3148
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "MUSCULATION",
+    "duration": 19,
+    "intensity": "élevée",
+    "calories": 213,
     "steps": 2876
   },
   {
-    "user_id": 2,
-    "date": "2026-06-04",
-    "workout_type": "MARCHE",
-    "duration": 45,
-    "intensity": "élevée",
-    "calories": NaN,
-    "steps": 10434
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 362,
+    "steps": 10932
   },
   {
-    "user_id": 2,
-    "date": "2026-06-05",
-    "workout_type": "marche",
-    "duration": 52,
-    "intensity": "élevée",
-    "calories": 182,
-    "steps": 6289
-  },
-  {
-    "user_id": 2,
+    "user_id": 6,
     "date": "2026-06-06",
-    "workout_type": "yoga",
-    "duration": 26,
-    "intensity": "élevée",
-    "calories": 221,
-    "steps": 11765
-  },
-  {
-    "user_id": 2,
-    "date": "2026-06-07",
-    "workout_type": "musculation",
-    "duration": 16,
-    "intensity": "faible",
-    "calories": 303,
-    "steps": 3619
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-09",
-    "workout_type": "marche",
-    "duration": 58,
-    "intensity": "modérée",
-    "calories": 112,
-    "steps": 10567
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-10",
-    "workout_type": "natation",
-    "duration": 28,
-    "intensity": "modérée",
-    "calories": 424,
-    "steps": 4898
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-11",
-    "workout_type": "hiit",
-    "duration": 52,
-    "intensity": "faible",
-    "calories": 462,
-    "steps": 4190
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-12",
-    "workout_type": "hiit",
-    "duration": 21,
-    "intensity": "élevée",
-    "calories": 400,
-    "steps": 7567
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-13",
-    "workout_type": "hiit",
-    "duration": 47,
-    "intensity": "modérée",
-    "calories": 381,
-    "steps": 6612
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-14",
-    "workout_type": "natation",
-    "duration": 43,
-    "intensity": "élevée",
-    "calories": 361,
-    "steps": 5756
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-15",
-    "workout_type": "marche",
-    "duration": 20,
-    "intensity": "élevée",
-    "calories": -100,
-    "steps": 10554
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-16",
-    "workout_type": "musculation",
-    "duration": 19,
-    "intensity": "faible",
-    "calories": 306,
-    "steps": 5177
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-17",
-    "workout_type": "natation",
-    "duration": 35,
-    "intensity": "modérée",
-    "calories": 426,
-    "steps": 11397
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-18",
-    "workout_type": "YOGA",
-    "duration": 40,
-    "intensity": "faible",
-    "calories": 161,
-    "steps": 2536
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-19",
-    "workout_type": "marche",
-    "duration": 38,
-    "intensity": "faible",
-    "calories": -100,
-    "steps": 5572
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-20",
-    "workout_type": "yoga",
-    "duration": 34,
-    "intensity": "modérée",
-    "calories": 236,
-    "steps": 7182
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-21",
-    "workout_type": "natation",
-    "duration": 59,
-    "intensity": "faible",
-    "calories": NaN,
-    "steps": 9186
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-22",
-    "workout_type": "yoga",
-    "duration": 22,
-    "intensity": "faible",
-    "calories": 158,
-    "steps": 100000
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-22",
-    "workout_type": "yoga",
-    "duration": 22,
-    "intensity": "faible",
-    "calories": 158,
-    "steps": 100000
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-23",
-    "workout_type": "hiit",
-    "duration": 38,
-    "intensity": "élevée",
-    "calories": 451,
-    "steps": 10519
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-24",
-    "workout_type": "marche",
-    "duration": 57,
-    "intensity": "faible",
-    "calories": 5000,
-    "steps": 7005
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-25",
-    "workout_type": "musculation",
-    "duration": 32,
-    "intensity": "modérée",
-    "calories": 337,
-    "steps": 8852
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-26",
-    "workout_type": "RUNNING",
-    "duration": 58,
-    "intensity": "élevée",
-    "calories": 413,
-    "steps": 3387
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-27",
-    "workout_type": "running",
-    "duration": 59,
-    "intensity": "faible",
-    "calories": 316,
-    "steps": 7877
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-28",
-    "workout_type": "running",
-    "duration": 50,
-    "intensity": "faible",
-    "calories": 318,
-    "steps": 9184
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-29",
-    "workout_type": "running",
-    "duration": 26,
-    "intensity": "faible",
-    "calories": 373,
-    "steps": 10646
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-30",
-    "workout_type": "natation",
-    "duration": 50,
-    "intensity": "élevée",
-    "calories": 337,
-    "steps": 10340
-  },
-  {
-    "user_id": 3,
-    "date": "2026-05-31",
-    "workout_type": "marche",
-    "duration": 19,
-    "intensity": "faible",
-    "calories": 127,
-    "steps": 10942
-  },
-  {
-    "user_id": 3,
-    "date": "2026-06-01",
     "workout_type": "yoga",
     "duration": 54,
     "intensity": "faible",
-    "calories": 191,
-    "steps": 2060
+    "calories": 178,
+    "steps": 5343
   },
   {
-    "user_id": 3,
-    "date": "2026-06-02",
-    "workout_type": "hiit",
-    "duration": 51,
-    "intensity": "élevée",
-    "calories": 488,
-    "steps": 5004
-  },
-  {
-    "user_id": 3,
-    "date": "2026-06-03",
-    "workout_type": "natation",
-    "duration": 30,
-    "intensity": "modérée",
-    "calories": 447,
-    "steps": 8609
-  },
-  {
-    "user_id": 3,
-    "date": "2026-06-04",
-    "workout_type": "natation",
-    "duration": 36,
-    "intensity": "modérée",
-    "calories": 347,
-    "steps": 6430
-  },
-  {
-    "user_id": 3,
-    "date": "2026-06-05",
-    "workout_type": "running",
-    "duration": 56,
-    "intensity": "élevée",
-    "calories": 285,
-    "steps": 11374
-  },
-  {
-    "user_id": 3,
-    "date": "2026-06-06",
-    "workout_type": "YOGA",
-    "duration": 18,
-    "intensity": "faible",
-    "calories": 216,
-    "steps": 9564
-  },
-  {
-    "user_id": 3,
+    "user_id": 6,
     "date": "2026-06-07",
-    "workout_type": "natation",
-    "duration": 32,
+    "workout_type": "MUSCULATION",
+    "duration": 19,
     "intensity": "élevée",
-    "calories": 311,
-    "steps": 11005
+    "calories": 206,
+    "steps": 8617
   },
   {
-    "user_id": 4,
-    "date": "2026-05-09",
-    "workout_type": "YOGA",
-    "duration": 53,
-    "intensity": "faible",
-    "calories": 223,
-    "steps": 5760
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-10",
-    "workout_type": "yoga",
-    "duration": 29,
-    "intensity": "faible",
-    "calories": 189,
-    "steps": 11155
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-11",
-    "workout_type": "natation",
-    "duration": 48,
-    "intensity": "faible",
-    "calories": 412,
-    "steps": 7690
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-11",
-    "workout_type": "natation",
-    "duration": 48,
-    "intensity": "faible",
-    "calories": 412,
-    "steps": 7690
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-12",
+    "user_id": 6,
+    "date": "2026-06-08",
     "workout_type": "running",
-    "duration": 17,
+    "duration": 33,
     "intensity": "modérée",
-    "calories": 392,
-    "steps": 10245
+    "calories": 350,
+    "steps": 100000
   },
   {
-    "user_id": 4,
-    "date": "2026-05-13",
-    "workout_type": "hiit",
-    "duration": 46,
-    "intensity": "élevée",
-    "calories": 384,
-    "steps": NaN
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "MUSCULATION",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 322,
+    "steps": 7732
   },
   {
-    "user_id": 4,
-    "date": "2026-05-14",
-    "workout_type": "hiit",
-    "duration": 39,
-    "intensity": "modérée",
-    "calories": 479,
-    "steps": 11752
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 234,
+    "steps": 11817
   },
   {
-    "user_id": 4,
-    "date": "2026-05-15",
+    "user_id": 7,
+    "date": "2026-06-06",
     "workout_type": "musculation",
-    "duration": 27,
-    "intensity": "faible",
-    "calories": 349,
-    "steps": 7233
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-16",
-    "workout_type": "marche",
-    "duration": 38,
-    "intensity": "élevée",
-    "calories": 187,
-    "steps": 4139
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-17",
-    "workout_type": "natation",
-    "duration": 57,
-    "intensity": "faible",
-    "calories": 431,
-    "steps": 7150
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-18",
-    "workout_type": "running",
-    "duration": 46,
-    "intensity": "faible",
-    "calories": 366,
-    "steps": 100000
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-18",
-    "workout_type": "running",
-    "duration": 46,
-    "intensity": "faible",
-    "calories": 366,
-    "steps": 100000
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-19",
-    "workout_type": "yoga",
-    "duration": 46,
-    "intensity": "modérée",
-    "calories": 184,
-    "steps": 2571
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-20",
-    "workout_type": "yoga",
     "duration": 24,
-    "intensity": "modérée",
-    "calories": NaN,
-    "steps": 6569
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-21",
-    "workout_type": "natation",
-    "duration": 25,
     "intensity": "faible",
-    "calories": 349,
-    "steps": 11645
+    "calories": 313,
+    "steps": 4786
   },
   {
-    "user_id": 4,
-    "date": "2026-05-22",
-    "workout_type": "marche",
-    "duration": 34,
-    "intensity": "modérée",
-    "calories": 113,
-    "steps": 5778
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-23",
-    "workout_type": "hiit",
-    "duration": 15,
-    "intensity": "modérée",
-    "calories": 484,
-    "steps": 5598
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-24",
+    "user_id": 7,
+    "date": "2026-06-07",
     "workout_type": "yoga",
-    "duration": 31,
+    "duration": 49,
     "intensity": "faible",
-    "calories": 5000,
-    "steps": 10782
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-25",
-    "workout_type": "yoga",
-    "duration": 44,
-    "intensity": "modérée",
-    "calories": 210,
-    "steps": 3875
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-26",
-    "workout_type": "natation",
-    "duration": 31,
-    "intensity": "faible",
-    "calories": 311,
-    "steps": 3389
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-27",
-    "workout_type": "yoga",
-    "duration": 31,
-    "intensity": "faible",
-    "calories": 207,
-    "steps": 10783
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-28",
-    "workout_type": "marche",
-    "duration": 47,
-    "intensity": "faible",
-    "calories": 108,
-    "steps": 2917
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-29",
-    "workout_type": "natation",
-    "duration": 17,
-    "intensity": "élevée",
-    "calories": 305,
-    "steps": 8917
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-30",
-    "workout_type": "hiit",
-    "duration": 34,
-    "intensity": "modérée",
-    "calories": 473,
-    "steps": NaN
-  },
-  {
-    "user_id": 4,
-    "date": "2026-05-31",
-    "workout_type": "hiit",
-    "duration": 33,
-    "intensity": "élevée",
-    "calories": 421,
-    "steps": 6780
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-01",
-    "workout_type": "yoga",
-    "duration": 17,
-    "intensity": "modérée",
-    "calories": 190,
-    "steps": 8236
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-02",
-    "workout_type": "musculation",
-    "duration": 58,
-    "intensity": "modérée",
-    "calories": 348,
+    "calories": 188,
     "steps": 100000
   },
   {
-    "user_id": 4,
-    "date": "2026-06-03",
-    "workout_type": "running",
-    "duration": 26,
-    "intensity": "élevée",
-    "calories": 367,
-    "steps": 4958
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-04",
-    "workout_type": "marche",
-    "duration": 59,
-    "intensity": "faible",
-    "calories": 125,
-    "steps": 3646
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-05",
-    "workout_type": "natation",
-    "duration": 15,
-    "intensity": "faible",
-    "calories": 336,
-    "steps": NaN
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-06",
-    "workout_type": "hiit",
-    "duration": 26,
-    "intensity": "faible",
-    "calories": 388,
-    "steps": NaN
-  },
-  {
-    "user_id": 4,
-    "date": "2026-06-07",
-    "workout_type": "marche",
-    "duration": 58,
-    "intensity": "élevée",
-    "calories": 111,
-    "steps": 5953
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-09",
-    "workout_type": "yoga",
-    "duration": 28,
-    "intensity": "modérée",
-    "calories": 190,
-    "steps": NaN
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-10",
+    "user_id": 7,
+    "date": "2026-06-08",
     "workout_type": "musculation",
-    "duration": 52,
-    "intensity": "élevée",
-    "calories": 204,
-    "steps": 3969
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-11",
-    "workout_type": "running",
-    "duration": 15,
-    "intensity": "élevée",
-    "calories": NaN,
-    "steps": 8089
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-12",
-    "workout_type": "yoga",
     "duration": 33,
-    "intensity": "élevée",
-    "calories": 216,
-    "steps": 5124
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-13",
-    "workout_type": "natation",
-    "duration": 23,
-    "intensity": "faible",
-    "calories": 385,
-    "steps": 2488
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-14",
-    "workout_type": "natation",
-    "duration": 25,
-    "intensity": "faible",
-    "calories": 318,
-    "steps": 11013
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-15",
-    "workout_type": "yoga",
-    "duration": 49,
     "intensity": "modérée",
-    "calories": 157,
-    "steps": 9010
+    "calories": 295,
+    "steps": 6980
   },
   {
-    "user_id": 5,
-    "date": "2026-05-16",
-    "workout_type": "natation",
-    "duration": 40,
-    "intensity": "faible",
-    "calories": 357,
-    "steps": 6399
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-16",
-    "workout_type": "natation",
-    "duration": 40,
-    "intensity": "faible",
-    "calories": 357,
-    "steps": 6399
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-17",
-    "workout_type": "hiit",
-    "duration": 30,
-    "intensity": "élevée",
-    "calories": 361,
-    "steps": 8542
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-18",
-    "workout_type": "musculation",
-    "duration": 41,
-    "intensity": "faible",
-    "calories": 320,
-    "steps": 9311
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-19",
-    "workout_type": "natation",
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
     "duration": 45,
-    "intensity": "élevée",
-    "calories": 344,
-    "steps": 10105
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-20",
-    "workout_type": "natation",
-    "duration": 36,
     "intensity": "modérée",
-    "calories": 377,
-    "steps": 11435
+    "calories": 144,
+    "steps": 7334
   },
   {
-    "user_id": 5,
-    "date": "2026-05-21",
-    "workout_type": "natation",
-    "duration": 18,
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 41,
     "intensity": "modérée",
-    "calories": 410,
-    "steps": 5683
+    "calories": 165,
+    "steps": 8172
   },
   {
-    "user_id": 5,
-    "date": "2026-05-22",
-    "workout_type": "running",
-    "duration": 47,
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
     "intensity": "élevée",
-    "calories": NaN,
-    "steps": 10853
+    "calories": 310,
+    "steps": 7734
   },
   {
-    "user_id": 5,
-    "date": "2026-05-23",
+    "user_id": 1,
+    "date": "2026-06-07",
     "workout_type": "running",
-    "duration": 49,
-    "intensity": "élevée",
-    "calories": 377,
-    "steps": 11769
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-24",
-    "workout_type": "natation",
-    "duration": 50,
+    "duration": 35,
     "intensity": "faible",
-    "calories": 434,
-    "steps": 2072
+    "calories": 323,
+    "steps": 8396
   },
   {
-    "user_id": 5,
-    "date": "2026-05-25",
-    "workout_type": "natation",
-    "duration": 22,
-    "intensity": "modérée",
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 291,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 28,
+    "intensity": "faible",
     "calories": 389,
-    "steps": 10258
+    "steps": 5943
   },
   {
-    "user_id": 5,
-    "date": "2026-05-26",
-    "workout_type": "marche",
-    "duration": 22,
-    "intensity": "modérée",
-    "calories": 156,
-    "steps": 5374
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-27",
-    "workout_type": "marche",
-    "duration": 59,
-    "intensity": "élevée",
-    "calories": 140,
-    "steps": 11732
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-28",
-    "workout_type": "natation",
-    "duration": 30,
-    "intensity": "modérée",
-    "calories": 324,
-    "steps": 5725
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-29",
+    "user_id": 1,
+    "date": "2026-06-10",
     "workout_type": "marche",
     "duration": 37,
-    "intensity": "modérée",
-    "calories": 160,
-    "steps": 6406
+    "intensity": "faible",
+    "calories": 196,
+    "steps": 9892
   },
   {
-    "user_id": 5,
-    "date": "2026-05-30",
-    "workout_type": "natation",
-    "duration": 49,
-    "intensity": "modérée",
-    "calories": 432,
-    "steps": 9629
-  },
-  {
-    "user_id": 5,
-    "date": "2026-05-31",
-    "workout_type": "musculation",
-    "duration": 32,
-    "intensity": "modérée",
-    "calories": 323,
-    "steps": 10984
-  },
-  {
-    "user_id": 5,
-    "date": "2026-06-01",
-    "workout_type": "marche",
-    "duration": 39,
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 38,
     "intensity": "faible",
     "calories": NaN,
-    "steps": 4964
+    "steps": 11687
   },
   {
-    "user_id": 5,
-    "date": "2026-06-02",
-    "workout_type": "running",
-    "duration": 43,
-    "intensity": "élevée",
-    "calories": NaN,
-    "steps": 3884
-  },
-  {
-    "user_id": 5,
-    "date": "2026-06-03",
-    "workout_type": "running",
-    "duration": 45,
-    "intensity": "élevée",
-    "calories": 418,
-    "steps": 7448
-  },
-  {
-    "user_id": 5,
-    "date": "2026-06-04",
+    "user_id": 2,
+    "date": "2026-06-07",
     "workout_type": "musculation",
-    "duration": 43,
-    "intensity": "modérée",
-    "calories": 264,
-    "steps": 11700
+    "duration": 48,
+    "intensity": "faible",
+    "calories": 210,
+    "steps": 4454
   },
   {
-    "user_id": 5,
-    "date": "2026-06-05",
+    "user_id": 2,
+    "date": "2026-06-08",
     "workout_type": "marche",
+    "duration": 53,
+    "intensity": "élevée",
+    "calories": 152,
+    "steps": 7134
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 43,
+    "intensity": "faible",
+    "calories": 362,
+    "steps": 11914
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": NaN,
+    "duration": 42,
+    "intensity": "faible",
+    "calories": 325,
+    "steps": 9392
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 304,
+    "steps": 3495
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 304,
+    "steps": 3495
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
     "duration": 16,
     "intensity": "modérée",
-    "calories": 148,
-    "steps": 4293
+    "calories": 191,
+    "steps": 2854
   },
   {
-    "user_id": 5,
-    "date": "2026-06-06",
-    "workout_type": "natation",
-    "duration": 32,
-    "intensity": "faible",
-    "calories": 444,
-    "steps": 2163
-  },
-  {
-    "user_id": 5,
-    "date": "2026-06-07",
-    "workout_type": "musculation",
-    "duration": 32,
-    "intensity": "élevée",
-    "calories": 256,
-    "steps": 11651
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-09",
-    "workout_type": "natation",
-    "duration": 47,
-    "intensity": "modérée",
-    "calories": 440,
-    "steps": 10123
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-10",
-    "workout_type": "NATATION",
-    "duration": 33,
-    "intensity": "faible",
-    "calories": 411,
-    "steps": NaN
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-11",
-    "workout_type": "natation",
-    "duration": 54,
-    "intensity": "modérée",
-    "calories": 369,
-    "steps": 11866
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-12",
-    "workout_type": "running",
-    "duration": 52,
-    "intensity": "élevée",
-    "calories": 292,
-    "steps": 9504
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-13",
-    "workout_type": "yoga",
-    "duration": 39,
-    "intensity": "modérée",
-    "calories": 198,
-    "steps": 8910
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-14",
-    "workout_type": "musculation",
-    "duration": 48,
-    "intensity": "élevée",
-    "calories": 207,
-    "steps": 11127
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-15",
-    "workout_type": "musculation",
-    "duration": 46,
-    "intensity": "élevée",
-    "calories": 333,
-    "steps": 9031
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-16",
-    "workout_type": "marche",
-    "duration": 22,
-    "intensity": "modérée",
-    "calories": 173,
-    "steps": NaN
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-17",
-    "workout_type": "natation",
-    "duration": 29,
-    "intensity": "élevée",
-    "calories": 445,
-    "steps": 11678
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-18",
-    "workout_type": "natation",
-    "duration": 44,
-    "intensity": "élevée",
-    "calories": 387,
-    "steps": 100000
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-19",
-    "workout_type": "RUNNING",
-    "duration": 48,
-    "intensity": "élevée",
-    "calories": 324,
-    "steps": 3428
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-20",
-    "workout_type": "marche",
-    "duration": 26,
-    "intensity": "faible",
-    "calories": 101,
-    "steps": 5489
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-21",
-    "workout_type": "musculation",
-    "duration": 34,
-    "intensity": "modérée",
-    "calories": 5000,
-    "steps": 2226
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-22",
-    "workout_type": "YOGA",
-    "duration": 21,
-    "intensity": "faible",
-    "calories": 214,
-    "steps": 6431
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-23",
-    "workout_type": "marche",
-    "duration": 33,
-    "intensity": "modérée",
-    "calories": 170,
-    "steps": 2541
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-24",
-    "workout_type": "musculation",
-    "duration": 42,
-    "intensity": "élevée",
-    "calories": 315,
-    "steps": 3019
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-25",
-    "workout_type": "yoga",
-    "duration": 40,
-    "intensity": "faible",
-    "calories": 5000,
-    "steps": NaN
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-26",
-    "workout_type": "running",
-    "duration": 49,
-    "intensity": "modérée",
-    "calories": 312,
-    "steps": 9999
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-27",
-    "workout_type": "yoga",
-    "duration": 38,
-    "intensity": "faible",
-    "calories": 151,
-    "steps": 2685
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-28",
-    "workout_type": "musculation",
-    "duration": 21,
-    "intensity": "élevée",
-    "calories": 241,
-    "steps": 10461
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-28",
-    "workout_type": "musculation",
-    "duration": 21,
-    "intensity": "élevée",
-    "calories": 241,
-    "steps": 10461
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-29",
-    "workout_type": "musculation",
-    "duration": 32,
-    "intensity": "modérée",
-    "calories": 284,
-    "steps": 100000
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-30",
-    "workout_type": "running",
-    "duration": 40,
-    "intensity": "modérée",
-    "calories": 382,
-    "steps": 4361
-  },
-  {
-    "user_id": 6,
-    "date": "2026-05-31",
-    "workout_type": "natation",
-    "duration": 55,
-    "intensity": "faible",
-    "calories": 323,
-    "steps": 9875
-  },
-  {
-    "user_id": 6,
-    "date": "2026-06-01",
-    "workout_type": "marche",
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "HIIT",
     "duration": 31,
-    "intensity": "modérée",
-    "calories": 108,
-    "steps": 5648
-  },
-  {
-    "user_id": 6,
-    "date": "2026-06-02",
-    "workout_type": "musculation",
-    "duration": 38,
     "intensity": "élevée",
-    "calories": 277,
-    "steps": NaN
+    "calories": 470,
+    "steps": 10004
   },
   {
-    "user_id": 6,
-    "date": "2026-06-03",
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "hiit",
+    "duration": 50,
+    "intensity": "élevée",
+    "calories": 457,
+    "steps": 10338
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
     "workout_type": "marche",
-    "duration": 29,
-    "intensity": "faible",
-    "calories": 166,
-    "steps": 2781
-  },
-  {
-    "user_id": 6,
-    "date": "2026-06-04",
-    "workout_type": "yoga",
     "duration": 56,
     "intensity": "élevée",
-    "calories": 161,
-    "steps": 8744
+    "calories": 123,
+    "steps": 8287
   },
   {
-    "user_id": 6,
-    "date": "2026-06-05",
-    "workout_type": "natation",
-    "duration": 35,
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "hiit",
+    "duration": 33,
     "intensity": "élevée",
-    "calories": 396,
-    "steps": 10078
+    "calories": 478,
+    "steps": -1000
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "natation",
+    "duration": 32,
+    "intensity": "modérée",
+    "calories": 5000,
+    "steps": 4869
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 26,
+    "intensity": "élevée",
+    "calories": 187,
+    "steps": 5446
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "YOGA",
+    "duration": 19,
+    "intensity": "faible",
+    "calories": NaN,
+    "steps": 9683
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 45,
+    "intensity": "élevée",
+    "calories": 248,
+    "steps": 11331
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "running",
+    "duration": 46,
+    "intensity": "élevée",
+    "calories": 419,
+    "steps": 5009
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "running",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 291,
+    "steps": 4950
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "marche",
+    "duration": 39,
+    "intensity": "modérée",
+    "calories": 154,
+    "steps": 3148
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "MUSCULATION",
+    "duration": 19,
+    "intensity": "élevée",
+    "calories": 213,
+    "steps": 2876
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "hiit",
+    "duration": 42,
+    "intensity": "modérée",
+    "calories": 362,
+    "steps": 10932
   },
   {
     "user_id": 6,
     "date": "2026-06-06",
-    "workout_type": "running",
-    "duration": 57,
-    "intensity": "modérée",
-    "calories": NaN,
-    "steps": 5200
+    "workout_type": "yoga",
+    "duration": 54,
+    "intensity": "faible",
+    "calories": 178,
+    "steps": 5343
   },
   {
     "user_id": 6,
     "date": "2026-06-07",
-    "workout_type": "yoga",
-    "duration": 26,
+    "workout_type": "MUSCULATION",
+    "duration": 19,
     "intensity": "élevée",
-    "calories": 201,
-    "steps": 9183
+    "calories": 206,
+    "steps": 8617
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "running",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 350,
+    "steps": 100000
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "MUSCULATION",
+    "duration": 47,
+    "intensity": "faible",
+    "calories": 322,
+    "steps": 7732
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 234,
+    "steps": 11817
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 24,
+    "intensity": "faible",
+    "calories": 313,
+    "steps": 4786
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 188,
+    "steps": 100000
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 33,
+    "intensity": "modérée",
+    "calories": 295,
+    "steps": 6980
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 45,
+    "intensity": "modérée",
+    "calories": 144,
+    "steps": 7334
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 41,
+    "intensity": "modérée",
+    "calories": 165,
+    "steps": 8172
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "musculation",
+    "duration": 35,
+    "intensity": "faible",
+    "calories": 246,
+    "steps": 8396
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 211,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 211,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 31,
+    "intensity": NaN,
+    "calories": 166,
+    "steps": 5073
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 37,
+    "intensity": "faible",
+    "calories": 196,
+    "steps": 9892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 232,
+    "steps": 8736
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "marche",
+    "duration": 38,
+    "intensity": "faible",
+    "calories": 173,
+    "steps": 10154
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 27,
+    "intensity": "élevée",
+    "calories": 205,
+    "steps": 4790
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 16,
+    "intensity": "modérée",
+    "calories": 321,
+    "steps": 4693
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 27,
+    "intensity": "faible",
+    "calories": 180,
+    "steps": 10901
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": NaN,
+    "duration": 26,
+    "intensity": "modérée",
+    "calories": 220,
+    "steps": 9554
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "musculation",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 236,
+    "steps": 6931
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 20,
+    "intensity": "faible",
+    "calories": 479,
+    "steps": NaN
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "modérée",
+    "calories": 339,
+    "steps": 6061
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "YOGA",
+    "duration": 55,
+    "intensity": "élevée",
+    "calories": 220,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 393,
+    "steps": 6973
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 47,
+    "intensity": "élevée",
+    "calories": 187,
+    "steps": 5446
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 33,
+    "intensity": "élevée",
+    "calories": 315,
+    "steps": 100000
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 35,
+    "intensity": "élevée",
+    "calories": 177,
+    "steps": 5394
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 399,
+    "steps": 9560
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 22,
+    "intensity": "modérée",
+    "calories": 230,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 56,
+    "intensity": "modérée",
+    "calories": 180,
+    "steps": 4491
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 56,
+    "intensity": NaN,
+    "calories": 306,
+    "steps": 10311
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 46,
+    "intensity": "modérée",
+    "calories": 293,
+    "steps": 5672
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 43,
+    "intensity": NaN,
+    "calories": 159,
+    "steps": 4141
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 50,
+    "intensity": "modérée",
+    "calories": 339,
+    "steps": 8905
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "MUSCULATION",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 269,
+    "steps": 4738
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 234,
+    "steps": 11817
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 23,
+    "intensity": "élevée",
+    "calories": 449,
+    "steps": 6079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 34,
+    "intensity": "faible",
+    "calories": 182,
+    "steps": NaN
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": NaN,
+    "calories": 383,
+    "steps": 7588
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "running",
+    "duration": 26,
+    "intensity": "faible",
+    "calories": 387,
+    "steps": 4539
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 422,
+    "steps": 10702
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 27,
+    "intensity": "modérée",
+    "calories": 370,
+    "steps": 11273
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "natation",
+    "duration": 20,
+    "intensity": "modérée",
+    "calories": NaN,
+    "steps": 8316
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-06",
+    "workout_type": "musculation",
+    "duration": 43,
+    "intensity": "élevée",
+    "calories": 310,
+    "steps": 7734
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-07",
+    "workout_type": "musculation",
+    "duration": 35,
+    "intensity": "faible",
+    "calories": 246,
+    "steps": 8396
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 211,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 17,
+    "intensity": "faible",
+    "calories": 211,
+    "steps": 7393
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-09",
+    "workout_type": "marche",
+    "duration": 31,
+    "intensity": NaN,
+    "calories": 166,
+    "steps": 5073
+  },
+  {
+    "user_id": 1,
+    "date": "2026-06-10",
+    "workout_type": "marche",
+    "duration": 37,
+    "intensity": "faible",
+    "calories": 196,
+    "steps": 9892
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 58,
+    "intensity": "élevée",
+    "calories": 232,
+    "steps": 8736
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-07",
+    "workout_type": "marche",
+    "duration": 38,
+    "intensity": "faible",
+    "calories": 173,
+    "steps": 10154
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 27,
+    "intensity": "élevée",
+    "calories": 205,
+    "steps": 4790
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 16,
+    "intensity": "modérée",
+    "calories": 321,
+    "steps": 4693
+  },
+  {
+    "user_id": 2,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 27,
+    "intensity": "faible",
+    "calories": 180,
+    "steps": 10901
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-06",
+    "workout_type": NaN,
+    "duration": 26,
+    "intensity": "modérée",
+    "calories": 220,
+    "steps": 9554
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-07",
+    "workout_type": "musculation",
+    "duration": 40,
+    "intensity": "modérée",
+    "calories": 236,
+    "steps": 6931
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-08",
+    "workout_type": "hiit",
+    "duration": 20,
+    "intensity": "faible",
+    "calories": 479,
+    "steps": NaN
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-09",
+    "workout_type": "musculation",
+    "duration": 39,
+    "intensity": "modérée",
+    "calories": 339,
+    "steps": 6061
+  },
+  {
+    "user_id": 3,
+    "date": "2026-06-10",
+    "workout_type": "YOGA",
+    "duration": 55,
+    "intensity": "élevée",
+    "calories": 220,
+    "steps": 4255
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-06",
+    "workout_type": "hiit",
+    "duration": 39,
+    "intensity": "faible",
+    "calories": 393,
+    "steps": 6973
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 47,
+    "intensity": "élevée",
+    "calories": 187,
+    "steps": 5446
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-08",
+    "workout_type": "musculation",
+    "duration": 33,
+    "intensity": "élevée",
+    "calories": 315,
+    "steps": 100000
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-09",
+    "workout_type": "yoga",
+    "duration": 35,
+    "intensity": "élevée",
+    "calories": 177,
+    "steps": 5394
+  },
+  {
+    "user_id": 4,
+    "date": "2026-06-10",
+    "workout_type": "running",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 399,
+    "steps": 9560
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-06",
+    "workout_type": "yoga",
+    "duration": 22,
+    "intensity": "modérée",
+    "calories": 230,
+    "steps": NaN
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-07",
+    "workout_type": "yoga",
+    "duration": 56,
+    "intensity": "modérée",
+    "calories": 180,
+    "steps": 4491
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 56,
+    "intensity": NaN,
+    "calories": 306,
+    "steps": 10311
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-09",
+    "workout_type": "running",
+    "duration": 46,
+    "intensity": "modérée",
+    "calories": 293,
+    "steps": 5672
+  },
+  {
+    "user_id": 5,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 43,
+    "intensity": NaN,
+    "calories": 159,
+    "steps": 4141
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 50,
+    "intensity": "modérée",
+    "calories": 339,
+    "steps": 8905
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-07",
+    "workout_type": "MUSCULATION",
+    "duration": 49,
+    "intensity": "faible",
+    "calories": 269,
+    "steps": 4738
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-08",
+    "workout_type": "yoga",
+    "duration": 40,
+    "intensity": "faible",
+    "calories": 234,
+    "steps": 11817
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 23,
+    "intensity": "élevée",
+    "calories": 449,
+    "steps": 6079
+  },
+  {
+    "user_id": 6,
+    "date": "2026-06-10",
+    "workout_type": "yoga",
+    "duration": 34,
+    "intensity": "faible",
+    "calories": 182,
+    "steps": NaN
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-06",
+    "workout_type": "natation",
+    "duration": 49,
+    "intensity": NaN,
+    "calories": 383,
+    "steps": 7588
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-07",
+    "workout_type": "running",
+    "duration": 26,
+    "intensity": "faible",
+    "calories": 387,
+    "steps": 4539
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-08",
+    "workout_type": "natation",
+    "duration": 15,
+    "intensity": "modérée",
+    "calories": 422,
+    "steps": 10702
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-09",
+    "workout_type": "natation",
+    "duration": 27,
+    "intensity": "modérée",
+    "calories": 370,
+    "steps": 11273
+  },
+  {
+    "user_id": 7,
+    "date": "2026-06-10",
+    "workout_type": "natation",
+    "duration": 20,
+    "intensity": "modérée",
+    "calories": NaN,
+    "steps": 8316
   }
 ]

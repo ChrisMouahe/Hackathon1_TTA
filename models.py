@@ -8,7 +8,7 @@ from datetime import date
 class User:
     """Représente un utilisateur du tracker fitness."""
 
-    def __init__(self, user_id, name, age, weight, height, goal, gender='M'):
+    def __init__(self, user_id, name, age, weight, height, goal, gender='M', masse_goal=None):
         self.user_id = user_id
         self.name = name            
         self.age = age              
@@ -16,6 +16,7 @@ class User:
         self.height = height     
         self.goal = goal            
         self.gender = gender        
+        self.masse_goal = masse_goal
         self.journal = []           
 
     def calculate_bmi(self):
@@ -52,7 +53,8 @@ class User:
             'height': self.height,
             'goal': self.goal,
             'gender': self.gender,
-            'user_id': self.user_id
+            'user_id': self.user_id,
+            'masse_goal': self.masse_goal
         }
 
 

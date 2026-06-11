@@ -186,7 +186,7 @@ def generate_simulated_users(user_nb=20, seed=42):
         "Fatou", "Koffi", "Awa", "Mariam", "Bamba"
     ]
 
-    goals = ["weight_loss", "muscle_gain", "cardio"]
+    goals = ["perte_poids", "force", "cardio"]
 
     for i in range(user_nb):
 
@@ -199,7 +199,8 @@ def generate_simulated_users(user_nb=20, seed=42):
             weight=round(float(np.random.uniform(50, 110)), 1),
             height=int(np.random.randint(150, 200)),
             goal=np.random.choice(goals),
-            gender=gender
+            gender=gender,
+            masse_goal= round(float(np.random.uniform(50, 110)), 1) if np.random.choice(goals) in ['perte_poids', 'force'] else None
         )
 
         dm.save_user(user)
@@ -221,6 +222,10 @@ def inject_anomalies(session, dm):
         session.calories = np.nan
     if np.random.random() < 0.08:
         session.steps = np.nan
+    if np.random.random() < 0.05:
+        session.workout_type = np.nan
+    if np.random.random() < 0.10:
+        session.intensity = np.nan
 
     #Valeurs aberrantes : injecter 3% dans le dataset
     if np.random.random() < 0.03:
@@ -286,8 +291,13 @@ def generate_simulated_data(days_nb=5, seed=42):
             inject_anomalies(session, dm)
         
 
-    return print(f"{days_nb} séances simulées pour chaque utilisateur dans {dm.path}\n", 
-                 )       
+    print(f"{days_nb} séances simulées pour chaque utilisateur dans {dm.path}\n")
+    print(df.shape)
+    print('====== 5 premières lignes du jeu de données ======\n', df.head())
+    print('\n====== Résumé statistique ======\n', df.describe())
+    print('\n====== Total des données manquantes par colonne ======\n', df.isna().sum())
+    return
+
 
 #Prétraitement et nettoyage du dataset 'sale'
 def clean_dataset():
@@ -313,6 +323,11 @@ def clean_dataset():
         # 4. Remplacer les valeurs manquantes
         df["calories"] = SimpleImputer(strategy="median").fit_transform(df[["calories"]])
         df["steps"]    = SimpleImputer(strategy="median").fit_transform(df[["steps"]])
+        #df["workout_type"] = SimpleImputer(strategy="most_frequent").fit_transform(df[["workout_type"]])
+        #df["intensity"] = SimpleImputer(strategy="most_frequent").fit_transform(df[["intensity"]])
+
+        # 5. Harmoniser les valeurs incohérentes
+        df["workout_type"] = df["workout_type"].str.lower()
 
         # 5. Retirer les valeurs aberrantes
         Q1  = df["calories"].quantile(0.25)
@@ -325,19 +340,6 @@ def clean_dataset():
         iqr = q3 - q1
         df  = df[(df["steps"] >= q1 - 1.5 * iqr) & (df["steps"] <= q3 + 1.5 * iqr)]
 
-        """print('\n=== DATASET NETTOYE ===')
-        print(df.shape)
-        print(df.head())
-
-        print('\n=== ANALYSE HEBDOMADAIRE ===')
-        print(weekly_analysis(df))
-
-        print('\n=== STATS PAR TYPE ===')
-        print(type_stats(df))
-
-        print('\n=== FREQUENCE EXERCICES ===')
-        print(exercise_frequency(df))
-        """
     return df
 
 """Création des méthodes pour l'analyse hebdomadaire"""
@@ -369,5 +371,26 @@ def exercise_frequency(df):
 
 if __name__ == '__main__': #Cette ligne teste si le fichier est exécuté directement.
     generate_simulated_data() #sinon il ignore cette ligne pour ne pas générer des données non voulues si le fichier est importé et exécuté ailleurs
+    reponse = input(print('Enclanchez le nettoyage du dataset ? (oui/non) : ')).strip().lower()
+    if reponse == 'oui':
+        clean_dataset()
+        df_clean = clean_dataset()
+        print('\n=== DATASET NETTOYE ===')
+        print(df_clean.shape)
+        print(df_clean.head())
+        
+        print('\n=== ANALYSE HEBDOMADAIRE ===')
+        print(weekly_analysis(df_clean))
+        
+        print('\n=== STATS PAR TYPE ===')
+        print(type_stats(df_clean))
+        
+        print('\n=== FREQUENCE EXERCICES ===')
+        print(exercise_frequency(df_clean))
+    
+    else:
+        print('Dataset non nettoyé. Certaines analyses et visualisations peuvent être affectées par les anomalies présentes dans les données.')
+
+    
 
     

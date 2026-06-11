@@ -30,7 +30,10 @@ def register_user(dm):
   weight = float(input('Poids (kg) : ').strip())
   height = int(input('Taille (cm) : ').strip())
   goal = input('Objectif (perte_poids, force, cardio) : ').strip()
-  new_user = User(user_id=dm.get_next_user_id(), name=name, age=age, weight=weight, height=height, goal=goal, gender=gender)
+    # Si l'objectif est perte de poids ou force, demander la masse cible
+    if goal in ['perte_poids', 'force']:
+      masse_goal = float(input('Entrez votre la masse que vous souhaitez atteindre (kg) : ').strip())
+  new_user = User(user_id=dm.get_next_user_id(), name=name, age=age, weight=weight, height=height, goal=goal, gender=gender, masse_goal=masse_goal if goal in ['perte_poids', 'force'] else None)
   print(f' Fitness Tracker IA — Bonjour {new_user.name} !')
   print(' IMC :', new_user.calculate_bmi(), '—', new_user.bmi_category())
   print(' Calories journalières estimées :', new_user.daily_calories())
@@ -78,8 +81,10 @@ def menu():
         current_user = dm.find_user_by_name(name)
         if current_user:
           print(f'Bienvenue de nouveau, {current_user.name} !')
-        else:
-          print('Utilisateur non trouvé. Essayez à nouveau.')
+        elif name.lower() != 'retour' :
+          print('Utilisateur non trouvé. Essayez à nouveau. (Tapez "retour" pour revenir au menu)')
+        else :
+          return menu()
     
     elif choix == '3':
       if current_user is None:
