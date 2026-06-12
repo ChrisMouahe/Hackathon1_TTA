@@ -236,6 +236,11 @@ def menu():
 
                     "user_id":
                         current_user.user_id,
+                    "goal": current_user.goal,
+
+                    "target_weight": current_user.target_weight,
+
+                    "health_condition": current_user.health_condition,                        
 
                     "anova":
                         anova,
@@ -249,8 +254,31 @@ def menu():
                 dm.save_user_report(current_user.user_id, report)
                 print('\nAnalyse enregistrée')
 
-            elif choix == '6':
-                
+            #Consulter Mes analyses passées
+            elif choix == '9':
+                reports = dm.load_user_reports(
+                    current_user.user_id
+                )
+
+                if not reports:
+
+                    print(
+                        "Aucune analyse enregistrée."
+                    )
+
+                else:
+
+                    for report in reports:
+
+                        print(
+                            "\nDate :",
+                            report["date_analyse"]
+                        )
+
+                        print(
+                            report["regression"]
+                                ["interpretation"]
+                        )                
             elif choix == '6':
                 if current_user is None:
                     print("Veuillez vous connecter.")

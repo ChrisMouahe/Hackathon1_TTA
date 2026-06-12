@@ -212,26 +212,22 @@ class DataManager:
         )
 
     def load_user_reports(self, user_id):
-        def load_user_reports(
-    self,
-    user_id
-    ):
 
-    path = (
-        f"{self.reports_dir}/"
-        f"user_{user_id}_report.json"
-    )
+        path = (
+            f"{self.reports_dir}/"
+            f"user_{user_id}_report.json"
+        )
 
-    if not os.path.exists(path):
-        return []
+        if not os.path.exists(path):
+            return []
 
-    with open(
-        path,
-        "r",
-        encoding="utf-8"
-    ) as f:
+        with open(
+            path,
+            "r",
+            encoding="utf-8"
+        ) as f:
 
-        return json.load(f)
+            return json.load(f)
 
     #Méthode
     def get_user_graph_dir(self, user_id):
