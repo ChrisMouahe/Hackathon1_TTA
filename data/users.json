@@ -1,65 +1,62 @@
 [
   {
-    "name": "Aya_1",
-    "age": 46,
-    "weight": 61.0,
-    "height": 157,
-    "goal": "weight_loss",
-    "gender": "M",
-    "user_id": 1
-  },
-  {
-    "name": "Koffi_2",
-    "age": 36,
-    "weight": 56.0,
-    "height": 160,
-    "goal": "weight_loss",
-    "gender": "M",
-    "user_id": 2
-  },
-  {
-    "name": "Awa_3",
-    "age": 41,
-    "weight": 89.1,
-    "height": 151,
-    "goal": "muscle_gain",
-    "gender": "F",
-    "user_id": 3
-  },
-  {
-    "name": "Kouame_4",
+    "name": "Awa_1",
     "age": 38,
-    "weight": 87.0,
-    "height": 171,
-    "goal": "weight_loss",
-    "gender": "F",
-    "user_id": 4
+    "weight": 59.4,
+    "height": 168,
+    "goal": "perte_poids",
+    "gender": "M",
+    "user_id": 1,
+    "masse_goal": 56.0
   },
   {
-    "name": "Mariam_5",
+    "name": "Aya_2",
+    "age": 57,
+    "weight": 92.5,
+    "height": 171,
+    "goal": "perte_poids",
+    "gender": "M",
+    "user_id": 2,
+    "masse_goal": 53.4
+  },
+  {
+    "name": "Fatou_3",
+    "age": 19,
+    "weight": 60.9,
+    "height": 170,
+    "goal": "force",
+    "gender": "F",
+    "user_id": 3,
+    "masse_goal": 87.0
+  },
+  {
+    "name": "Mariam_4",
     "age": 44,
     "weight": 86.7,
     "height": 191,
+    "goal": "force",
+    "gender": "F",
+    "user_id": 4,
+    "masse_goal": 52.8
+  },
+  {
+    "name": "Yao_5",
+    "age": 20,
+    "weight": 101.6,
+    "height": 156,
     "goal": "cardio",
     "gender": "F",
-    "user_id": 5
+    "user_id": 5,
+    "masse_goal": null
   },
   {
-    "name": "Chris KOUAKOU",
-    "age": 24,
-    "weight": 174.0,
-    "height": 123,
-    "goal": "Cardio",
-    "gender": "M",
-    "user_id": 6
-  },
-  {
-    "name": "MOUAHE",
-    "age": 24,
-    "weight": 59.0,
-    "height": 174,
-    "goal": "force",
-    "gender": "M",
-    "user_id": 7
+    "name": "CHRIS",
+    "age": 30,
+    "weight": 78.0,
+    "height": 170,
+    "goal": "Force",
+    "gender": "K",
+    "user_id": 6,
+    "masse_goal": null
   }
 ]

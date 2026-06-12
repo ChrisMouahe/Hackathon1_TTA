@@ -19,14 +19,18 @@ ANOVA : teste si les calories diffèrent selon le type d'exercice.
 H0 : toutes les moyennes sont égales.
 H1 : au moins une moyenne est différente.
 """
-def test_anova_calories(df):
+df_user = dm.get_user_history(
+  current_user.user_id,
+  df_clean
+)
+def test_anova_calories(df_user):
   groupes = [
-      df[
-          df['workout_type'] == t]['calories']
+      df_user[
+          df_user['workout_type'] == t]['calories']
           .dropna()
           .values
-      for t in df['workout_type'].unique()
-      if len(df[df['workout_type'] == t]) >= 3 # min 3 obs
+      for t in df_user['workout_type'].unique()
+      if len(df_user[df_user['workout_type'] == t]) >= 3 # min 3 obs
       ]
   if len(groupes) < 2:
     return {'erreur': 'Données insuffisantes pour ANOVA'}
@@ -47,19 +51,19 @@ def test_anova_calories(df):
 
 """Création de la regression linéaire. Elle modélise la tendance sur les données passées pour prédire les pas ou les calories futures."""
 
-def regress_progress(df, colonne='calories'):
+def regress_progress(df_user, colonne='calories'):
   #Pour déterminer si l'utilisateur progresse
   """
 Régression linéaire de 'colonne' en fonction du temps.
 Retourne la pente (progression/jour), l'intercept et le R².
 """
 
-  df_sorted = df.sort_values('date').reset_index(drop=True)
+  df_user_sorted = df_user.sort_values('date').reset_index(drop=True)
   x = np.arange(len(df_sorted)) # jours : 0, 1, 2 ...
-  y = df_sorted[colonne].values
-  print("Nombre de lignes :", len(df_sorted))
-  print("NaN calories :", df_sorted[colonne].isna().sum())
-  print(df_sorted[[colonne]].head())
+  y = df_user_sorted[colonne].values
+  print("Nombre de lignes :", len(df_user_sorted))
+  print("NaN calories :", df_user_sorted[colonne].isna().sum())
+  print(df_user_sorted[[colonne]].head())
   slope, intercept, r_value, p_value, std_err = stats.linregress(x, y)
   # Prédiction pour les 7 prochains jours
   futurs_days = np.arange(len(x), len(x) + 7)
@@ -78,15 +82,15 @@ Retourne la pente (progression/jour), l'intercept et le R².
       ) }
 
 #T-test apparié pour comprarer les calories brulées avant et après un programme
-def ttest_paired(df, colonne='calories', split_ratio=0.5):
+def ttest_paired(df_user, colonne='calories', split_ratio=0.5):
   """
 Test t apparié : première moitié vs deuxième moitié de l'historique.
 Simule avant/après un programme d'entrainement.
 """
-  df_sorted = df.sort_values('date')[colonne].dropna().values
-  middle = int(len(df_sorted) * split_ratio)
-  before = df_sorted[:middle]
-  after = df_sorted[middle:middle + len(before)] # même taille
+  df_user_sorted = df_user.sort_values('date')[colonne].dropna().values
+  middle = int(len(df_user_sorted) * split_ratio)
+  before = df_user_sorted[:middle]
+  after = df_user_sorted[middle:middle + len(before)] # même taille
   if len(before) < 3 or len(after) < 3:
     return {'erreur': 'Pas assez de données (min 6 séances)'}
   t_stat, p_value = stats.ttest_rel(before, after)
@@ -107,7 +111,7 @@ Simule avant/après un programme d'entrainement.
 
 if __name__ == '__main__':
   from data_manager import DataManager
-  df = DataManager().load_dataframe()
+  df_user = DataManager().load_dataframe()
   
-  print(regress_progress(df, 'calories'))
+  print(regress_progress(df_user, 'calories'))
   

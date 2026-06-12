@@ -19,11 +19,13 @@ from datetime import datetime, timedelta, date
 from models import Session, User
 
 class DataManager:
-    def __init__(self, path='data/sessions.json', path_users='data/users.json'):
+    def __init__(self, path='data/sessions.json', path_users='data/users.json', reports_dir):
         self.path = path
         self.path_users = path_users
+        self.reports_dir = "data/user_reports"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         os.makedirs(os.path.dirname(path_users), exist_ok=True)
+        os.makedirs(self.reports_dir, exist_ok=True)
 
     #Créer la méthode save_session qui charge l'historique actuel, ajoute la nouvelle session et réécrit le JSON
     def save_session(self, session):
@@ -138,7 +140,8 @@ class DataManager:
                     weight=user['weight'],
                     height=user['height'],
                     goal=user['goal'],
-                    gender=user['gender']
+                    gender=user['gender'],
+                    health_condition=user['health_condition']
                 )
 
         return None
@@ -168,6 +171,76 @@ class DataManager:
 
         return pd.DataFrame(user_sessions) """
     
+    #Créer une méthode pour sauvegarder un rapport
+    def save_user_report(self, user_id, report):
+        def save_user_report(
+    self,
+    user_id,
+    report
+    ):
+
+    path = (
+        f"{self.reports_dir}/"
+        f"user_{user_id}_report.json"
+    )
+
+    reports = []
+
+    if os.path.exists(path):
+
+        with open(
+            path,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            reports = json.load(f)
+
+    reports.append(report)
+
+    with open(
+        path,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            reports,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    def load_user_reports(self, user_id):
+        def load_user_reports(
+    self,
+    user_id
+    ):
+
+    path = (
+        f"{self.reports_dir}/"
+        f"user_{user_id}_report.json"
+    )
+
+    if not os.path.exists(path):
+        return []
+
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
+
+    #Méthode
+    def get_user_graph_dir(self, user_id):
+        folder = f"graphs/user_{user_id}"
+
+        os.makedirs(folder, exist_ok=True)
+
+        return folder
+
     #Créer la méthode export_csv pour permettre à l'utilisateur d'avoir export.csv
     def export_csv(self, file_name='data/export.csv'):
         df = self.load_dataframe()
@@ -175,8 +248,55 @@ class DataManager:
             df.to_csv(file_name, index=False, encoding='utf-8')
         print(f'Export csv : {file_name}')
 
+#Méthode pour sauvegarder les métadonnées des graphiques
+def save_graph_metadata(self, user_id):
+
+    folder = self.get_user_graph_dir(user_id)
+
+    metadata = {
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "graphs": []
+    }
+
+    for file in os.listdir(folder):
+
+        if file.endswith(".png"):
+
+            metadata["graphs"].append(file)
+
+    with open(
+        f"{folder}/graphs.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            metadata,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
+
+#Méthode pour lire les données
+def load_graph_metadata(self, user_id):
+
+    folder = self.get_user_graph_dir(user_id)
+
+    path = f"{folder}/graphs.json"
+
+    if not os.path.exists(path):
+        return None
+
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
+
     #Generer des données utilisateur fictives pour les démonstrations
-def generate_simulated_users(user_nb=20, seed=42):
+def generate_simulated_users(user_nb=5, seed=42):
     np.random.seed(seed)
 
     dm = DataManager()
@@ -185,22 +305,32 @@ def generate_simulated_users(user_nb=20, seed=42):
         "Kouassi", "Kouame", "Yao", "Aya", "Aminata",
         "Fatou", "Koffi", "Awa", "Mariam", "Bamba"
     ]
+    health_conditions = [
+        None,
+        "maladie_cardiaque",
+        "probleme_genoux",
+        "probleme_cheville",
+        "arthrite",
+        "ulcere"
+        ]
 
     goals = ["perte_poids", "force", "cardio"]
 
     for i in range(user_nb):
 
         gender = np.random.choice(["M", "F"])
-
+        goal = np.random.choice(goals)
         user = User(
             user_id=dm.get_next_user_id(),
             name=f"{np.random.choice(first_names)}_{i+1}",
             age=int(np.random.randint(18, 60)),
             weight=round(float(np.random.uniform(50, 110)), 1),
             height=int(np.random.randint(150, 200)),
-            goal=np.random.choice(goals),
+            goal=goal,
             gender=gender,
-            masse_goal= round(float(np.random.uniform(50, 110)), 1) if np.random.choice(goals) in ['perte_poids', 'force'] else None
+            health_condition=np.random.choice(health_conditions, p=[0.7, 0.05, 0.08, 0.05, 0.07, 0.05]), # 70% sans condition, 30% avec différentes conditions
+            target_weight= round(float(np.random.uniform(50, 110)), 1) if goal in ['perte_poids', 'force'] else None
+
         )
 
         dm.save_user(user)
@@ -222,10 +352,6 @@ def inject_anomalies(session, dm):
         session.calories = np.nan
     if np.random.random() < 0.08:
         session.steps = np.nan
-    if np.random.random() < 0.05:
-        session.workout_type = np.nan
-    if np.random.random() < 0.10:
-        session.intensity = np.nan
 
     #Valeurs aberrantes : injecter 3% dans le dataset
     if np.random.random() < 0.03:
@@ -257,6 +383,9 @@ def inject_anomalies(session, dm):
 def generate_simulated_data(days_nb=5, seed=42):
     np.random.seed(seed) #Pour avoir toujours les mêmes résultats
     dm = DataManager()
+    sessions = dm.load_historic_raw()
+
+    
     df = dm.load_dataframe() # Charger les données existantes pour éviter de les écraser à chaque génération
     types_exercise = ['yoga', 'running', 'hiit', 'musculation', 'natation', 'marche']
 
@@ -289,14 +418,31 @@ def generate_simulated_data(days_nb=5, seed=42):
                 date_str     = str(seance_date)
             )
             inject_anomalies(session, dm)
-        
 
-    print(f"{days_nb} séances simulées pour chaque utilisateur dans {dm.path}\n")
+    df = dm.load_dataframe()
+
+    print(
+        f"{days_nb} séances simulées pour chaque utilisateur enregistrées."
+    )
+
+    print("\n====== Taille du dataset ======")
     print(df.shape)
-    print('====== 5 premières lignes du jeu de données ======\n', df.head())
-    print('\n====== Résumé statistique ======\n', df.describe())
-    print('\n====== Total des données manquantes par colonne ======\n', df.isna().sum())
-    return
+
+    print("\n====== 5 premières lignes ======")
+    print(df.head())
+
+    if not df.empty:
+
+        print("\n====== Résumé statistique ======")
+        print(df.describe())
+
+        print("\n====== Données manquantes ======")
+        print(df.isna().sum())
+
+        print("\n====== Doublons ======")
+        print(df.duplicated().sum())
+
+    return df
 
 
 #Prétraitement et nettoyage du dataset 'sale'
@@ -323,8 +469,6 @@ def clean_dataset():
         # 4. Remplacer les valeurs manquantes
         df["calories"] = SimpleImputer(strategy="median").fit_transform(df[["calories"]])
         df["steps"]    = SimpleImputer(strategy="median").fit_transform(df[["steps"]])
-        #df["workout_type"] = SimpleImputer(strategy="most_frequent").fit_transform(df[["workout_type"]])
-        #df["intensity"] = SimpleImputer(strategy="most_frequent").fit_transform(df[["intensity"]])
 
         # 5. Harmoniser les valeurs incohérentes
         df["workout_type"] = df["workout_type"].str.lower()
@@ -370,23 +514,19 @@ def exercise_frequency(df):
 
 
 if __name__ == '__main__': #Cette ligne teste si le fichier est exécuté directement.
+    generate_simulated_users() 
     generate_simulated_data() #sinon il ignore cette ligne pour ne pas générer des données non voulues si le fichier est importé et exécuté ailleurs
-    reponse = input(print('Enclanchez le nettoyage du dataset ? (oui/non) : ')).strip().lower()
+    reponse = input('Enclanchez le nettoyage du dataset ? (oui/non) : ').strip().lower()
     if reponse == 'oui':
         clean_dataset()
         df_clean = clean_dataset()
         print('\n=== DATASET NETTOYE ===')
         print(df_clean.shape)
         print(df_clean.head())
-        
-        print('\n=== ANALYSE HEBDOMADAIRE ===')
-        print(weekly_analysis(df_clean))
-        
-        print('\n=== STATS PAR TYPE ===')
-        print(type_stats(df_clean))
-        
-        print('\n=== FREQUENCE EXERCICES ===')
-        print(exercise_frequency(df_clean))
+        print('\nTotal des données manquantes par colonne :\n', df_clean.isna().sum())
+        print('\nStatistiques descriptives après nettoyage :\n', df_clean.describe())
+        print(df_clean.info())
+        print('valeurs dupliquées :', df_clean.duplicated().sum())
     
     else:
         print('Dataset non nettoyé. Certaines analyses et visualisations peuvent être affectées par les anomalies présentes dans les données.')
